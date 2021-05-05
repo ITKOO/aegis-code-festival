@@ -10,7 +10,7 @@ typingTxt=typingTxt.split(""); // 한글자씩
 
 if(isTyping==false){
   isTyping=true; 
-  setInterval(typing,50); // 반복
+  var typFunc = setInterval(typing, 50); // 반복
 } 
 
 /**
@@ -49,7 +49,7 @@ function typing(){
     $(".typing").append(appendHtml);
     typingIndex++; 
   } else{ 
-    clearInterval(tyInt); // 인터벌 종료
+    clearInterval(typFunc); // 인터벌 종료
   } 
 } 
 

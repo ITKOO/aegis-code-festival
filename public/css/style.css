@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 body{
   font-family: 'Noto Sans KR', sans-serif;
   margin: 0;
@@ -5,6 +9,37 @@ body{
 
 header{
   background-color: #7d04ff;
+}
+
+hr{
+  width: 30px;
+  float: left;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 3px;
+  border-color: #7d05ff;
+  margin: 40px 0;
+}
+
+h3{
+  font-size: 16px;
+  margin: 20px 0;
+  font-weight: 600;
+}
+
+ul{
+  margin-left: 20px;
+}
+
+ul li{
+  line-height: 26px;
+}
+
+.line{
+  color: #7d05ff;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 30px 0;
 }
 
 .top-banner {
@@ -37,24 +72,11 @@ header{
   text-align: center;
 }
 
-@media (min-width: 960px){
-  .top-banner{
-    width: 800px;
-    background-size: 90px 90px;
-    margin: 0 auto;
-    padding: 32px 0 37px 110px;
-    font-size: 22px;
-    line-height: 30px;
-  }
-
-  .tb-btn{
-    display: inline-block;
-    position: absolute;
-    right: 0;
-    top: 40px;
-    margin: 0;
-    padding: 0 30px;
-  }
+.intro{
+  background-color: #353535;
+  color: #fff;
+  padding: 30px;
+  margin: 30px 20px;
 }
 
 .typing-txt{
@@ -63,19 +85,6 @@ header{
 
 .typing{
   font-size: 1em;
-}
-
-@media (max-width: 450px){
-  .typing{
-    font-size: 0.8em;
-  }
-}
-  
-.intro{
-  background-color: #353535;
-  color: #fff;
-  padding: 30px;
-  margin: 30px 20px;
 }
 
 .orange-txt{
@@ -97,3 +106,91 @@ header{
 .sky-blue-txt{
   color: #6eeff8;
 }
+
+.intro-img {
+  background-image: url("../img/intro-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 300px;
+}
+
+.intro-img img{
+  display: block;
+  margin: 0 auto;
+  border: 5px solid #7d04ff;
+  position: relative;
+  top: 50px;
+}
+
+.description{
+  padding: 0 20px 20px;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.mark-txt{
+  background-color: #7d05ff33;
+  padding: 2px 7px;
+  border-radius: 3px;
+}
+
+.topic-sub-txt{
+  color: #7d05ff;
+  font-size: 0.9em;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+@media (min-width: 960px){
+  hr{
+    margin: 60px 0;
+  }
+
+  h3{
+    font-size: 28px;
+    margin: 33px 0;
+  }
+
+  ul li{
+    line-height: 38px;
+  }
+
+  .top-banner{
+    width: 800px;
+    background-size: 90px 90px;
+    margin: 0 auto;
+    padding: 32px 0 37px 110px;
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .tb-btn{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    margin: 0;
+    padding: 0 30px;
+  }
+
+  .description{
+    margin: 60px auto 0;
+    width: 960px;
+    font-size: 22px;
+    line-height: 33px;
+  }
+
+  .line{
+    font-size: 35px;
+    margin: 50px 0;
+  }
+}
+
+
+
+@media (max-width: 450px){
+  .typing{
+    font-size: 0.8em;
+  }
+}
+  
