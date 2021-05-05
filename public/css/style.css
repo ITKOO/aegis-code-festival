@@ -56,3 +56,44 @@ header{
     padding: 0 30px;
   }
 }
+
+.typing-txt{
+  display: none;
+}
+
+.typing{
+  font-size: 1em;
+}
+
+@media (max-width: 450px){
+  .typing{
+    font-size: 0.8em;
+  }
+}
+  
+.intro{
+  background-color: #353535;
+  color: #fff;
+  padding: 30px;
+  margin: 30px 20px;
+}
+
+.orange-txt{
+  color: #f0863f;
+}
+
+.purple-txt{
+  color: #d374f8;
+}
+
+.yellow-txt{
+  color: #f8ce44;
+}
+
+.blue-txt{
+  color: #4f83e2;
+}
+
+.sky-blue-txt{
+  color: #6eeff8;
+}
