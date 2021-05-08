@@ -77,6 +77,7 @@ ul li{
   color: #fff;
   padding: 30px;
   margin: 30px 20px;
+  border-radius: 10px;
 }
 
 .typing-txt{
@@ -96,7 +97,7 @@ ul li{
 }
 
 .yellow-txt{
-  color: #f8ce44;
+  color: #feee7d;
 }
 
 .blue-txt{
@@ -129,16 +130,84 @@ ul li{
 }
 
 .mark-txt{
-  background-color: #7d05ff33;
   padding: 2px 7px;
   border-radius: 3px;
+}
+
+.gold-bg{
+  background-color: #ffd700;
+}
+
+.silver-bg{
+  background-color: #c0c0c0a3;
+}
+
+.bronze-bg{
+  background-color: #de813233;
+}
+
+.purple-bg{
+  background-color: #7d05ff33;
+}
+
+.display-none{
+  display: none !important;
 }
 
 .topic-sub-txt{
   color: #7d05ff;
   font-size: 0.9em;
-  margin-bottom: 10px;
+  margin-top: 10px;
   display: inline-block;
+}
+
+.a-color{
+  color: #7d05ff;
+}
+
+.bold-txt{
+  font-weight: bold;
+}
+
+.null-padding{
+  height: 10px;
+}
+
+.li-indent-txt{
+  display: block;
+  text-indent: 10px;
+  font-size: 13px;
+  color: #7d05ff;
+}
+
+.sm-txt{
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.share-btn{
+  width: 70px;
+  height: 70px;
+  border-radius: 14px;
+  display: inline-block;
+  font-size: 30px;
+  border: none;
+  background-color: #cacaca;
+  color: #fff;
+}
+
+.share div{
+  display: inline-block;
+}
+
+.link-box{
+  position: relative;
+  bottom: 23px;
+}
+
+.link-box input{
+  opacity: 0;
+  width: 2px;
 }
 
 @media (min-width: 960px){
@@ -184,6 +253,19 @@ ul li{
     font-size: 35px;
     margin: 50px 0;
   }
+
+  .null-padding{
+    height: 0;
+  }
+
+  .li-indent-txt{
+    font-size: 18px;
+  }
+
+  .sm-txt{
+    font-size: 18px;
+  }
+  
 }
 
 
